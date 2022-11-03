@@ -114,7 +114,7 @@ function Navbar() {
               <div className="nav-mob-list">
                 <Link to={"/team"}>TEAM</Link>
               </div>
-              <div className="nav-mob-list">ABOUT</div>
+              <div className="nav-mob-list" >ABOUT</div>
               <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
