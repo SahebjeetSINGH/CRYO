@@ -19,6 +19,7 @@
 .aboutDescText{
   padding: 10px;
   font-weight: 700;
+  text-align: justify;
   color: #fff;
 }
 
@@ -30,6 +31,8 @@
   display: flex;
   padding: 30px;
   align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .aboutDescImg{

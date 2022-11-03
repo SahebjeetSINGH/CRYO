@@ -10,9 +10,9 @@ function Footer() {
   return (
     <div className="footerHomeContainer">
       <div className="footerHomeEmailSectionContainer">
-        <div className="footerHomeSection1Head1">Stay In the loop</div>
+        <div className="footerHomeSection1Head1">Stay with us and get latest updates</div>
         <div className="footerHomeSection1Head2">
-          Join our mailing list to stay updated about development at Tiger dev
+          Join our mailing list to stay updated about development at CRYO
         </div>
         <div className="footerHomeEmailContainer">
           <input
@@ -35,13 +35,16 @@ function Footer() {
                 alt="GDSC logo"
               />
             </div>
-            <div className="footerHomeAboutGDSCText">ABOUT GDSC </div>
+            <div className="footerHomeAboutGDSCText">ABOUT CRYO </div>
           </div>
           <div className="footerHomeAboutGDSCTextDesc">
-            Google Developer Student Clubs are university based community groups
-            for students interested in Google developer technologies. Students
-            from all undergraduate or graduate programs with an interest in
-            growing as a developer are welcome.{" "}
+            CRYO was created as a web application-based product on software that
+            utilises blockchain technology to purchase NFT-based event tickets
+            so that it can provide security and ease of purchasing tickets
+            online. With CRYO, all event tickets purchased by users will be in
+            the form of NFT, so that the authenticity of the ticket is proven to
+            be valid because all data contained in the blockchain can be seen by
+            the owner and historical data on the ownership of the NFT{" "}
           </div>
         </div>
         <div className="footerHomeAboutMarketContainer">
@@ -66,11 +69,61 @@ function Footer() {
         <div className="footerHomeAboutComHead">Join Our Community</div>
         <div className="footerHomeAboutComDesc">
           <div className="footerHomeAboutComDescContainer">
-            <a href="https://www.youtube.com/c/GDSCGTBIT/featured" rel="noreferrer"  target={"_blank"}><img className="footerHomeAboutComIcon" src={discord_icon}  alt = {"icon"}/></a>
-            <a href="https://www.facebook.com/dscgtbit" rel="noreferrer"  target={"_blank"}><img className="footerHomeAboutComIcon" src={facebook_icon}  alt = {"icon"}/></a>
-            <a href="https://www.instagram.com/gdscgtbit/" rel="noreferrer"  target={"_blank"}><img className="footerHomeAboutComIcon" src={insta_icon}  alt = {"icon"}/></a>
-            <a href="https://twitter.com/gdscgtbit" rel="noreferrer"  target={"_blank"}><img className="footerHomeAboutComIcon" src={twitter_icon}  alt = {"icon"}/></a>
-            <a href="https://www.youtube.com/c/GDSCGTBIT/featured" rel="noreferrer"  target={"_blank"}><img className="footerHomeAboutComIcon" src={youtube_icon}  alt = {"icon"}/></a>
+            <a
+              href="https://www.youtube.com/c/GDSCGTBIT/featured"
+              rel="noreferrer"
+              target={"_blank"}
+            >
+              <img
+                className="footerHomeAboutComIcon"
+                src={discord_icon}
+                alt={"icon"}
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/dscgtbit"
+              rel="noreferrer"
+              target={"_blank"}
+            >
+              <img
+                className="footerHomeAboutComIcon"
+                src={facebook_icon}
+                alt={"icon"}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/gdscgtbit/"
+              rel="noreferrer"
+              target={"_blank"}
+            >
+              <img
+                className="footerHomeAboutComIcon"
+                src={insta_icon}
+                alt={"icon"}
+              />
+            </a>
+            <a
+              href="https://twitter.com/gdscgtbit"
+              rel="noreferrer"
+              target={"_blank"}
+            >
+              <img
+                className="footerHomeAboutComIcon"
+                src={twitter_icon}
+                alt={"icon"}
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/c/GDSCGTBIT/featured"
+              rel="noreferrer"
+              target={"_blank"}
+            >
+              <img
+                className="footerHomeAboutComIcon"
+                src={youtube_icon}
+                alt={"icon"}
+              />
+            </a>
           </div>
         </div>
       </div>

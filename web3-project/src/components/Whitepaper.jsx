@@ -5,13 +5,12 @@ function Whitepaper() {
   return (
     <div className="WhitePaper">
       <div className="aboutContainer">
-        <div className="aboutContainerHead">ABOUT THE PROJECT</div>
+        <div className="aboutContainerHead">ABOUT THE CRYO</div>
         <div className="aboutDescContainer">
           <div className="aboutDescImgContainer">
             <img className="aboutDescImg" src={tiger_img} alt="tiger icon" />
           </div>
-          <div className="aboutDescText">Malayan tigers are found in the subtropical jungles of peninsular Malaysia. Although they are acknowledged as the national animal of Malaysia, their numbers have dropped drastically over time to the point where they are now extinct. As of the year 2022, only 150 of the species are left, which is precisely why GDSC GTBIT chose to engage on this project.
-You can buy NFTs that we have created to serve as your underlying assets. They are a type of digital collectible that can be bought, sold, or traded, and their value will only rise over time. A portion of the revenue will be given to the charity.
+          <div className="aboutDescText">CRYO was created as a web application-based product on software that utilises blockchain technology to purchase NFT-based event tickets so that it can provide security and ease of purchasing tickets online. With CRYO, all event tickets purchased by users will be in the form of NFT, so that the authenticity of the ticket is proven to be valid because all data contained in the blockchain can be seen by the owner and historical data on the ownership of the NFT. Aside from being an identity marker, the event organiser can also customise the shape of the NFT that will be sold so that it can become a unique souvenir for visitors to commemorate the event. To prevent corruption in event ticket sales, we also present a feature for sharing sales results with event stakeholders by the percentage determined by the organisers.
  </div>
         </div>
       </div>

@@ -1,10 +1,8 @@
-
-
 import React from "react";
 import "../assets/css/NavbarHome.css";
 import { Link } from "react-router-dom";
-import tiger_icon from "../assets/images/tiger_icon_nav.png";
-import GDSC_icon from "../assets/images/GDSC_icon.png";
+import tiger_icon from "../assets/images/cryo_2.png";
+import GDSC_icon from "../assets/images/cryo_logo.png";
 function Navbar() {
   return (
     <div>
@@ -21,10 +19,9 @@ function Navbar() {
           </div>
           <div className="navbarHomeSection2">
             <div>
-              <span className="navbarHomeSection2Span">
-                <Link to={"/"}>TigerDev</Link>{" "}
-              </span>{" "}
-              X GTBIT
+              {/* <span className="navbarHomeSection2Span">
+                <Link to={"/"}>CRYO</Link>{" "}
+              </span>{" "} */}
             </div>
             <div className="navbarHomeSection2SearchContainer">
               <i className="bi bi-search"></i>
@@ -34,12 +31,17 @@ function Navbar() {
                 placeholder="Search items, Collections"
               ></input>
             </div>
+          </div>
+          <div className="navbarHomeSection2">
+            <div>
+              {/* <span className="navbarHomeSection2Span">
+                <Link to={"/"}>CRYO</Link>{" "}
+              </span>{" "} */}
+            </div>
             <div className="navbarHomeSection2part3">
               <div>
-                <Link to={"/Collections"}>COLLECTION</Link>
+                <Link to={"/Collections"}>Buy Tickets</Link>
               </div>
-              {/* <div>MINT NOW</div> */}
-              <div>WHITE PAPER</div>
               <div>
                 <Link to={"/team"}>TEAM</Link>
               </div>
@@ -51,9 +53,6 @@ function Navbar() {
                 <i className="bi bi-wallet"></i>
               </div>
             </div>
-          </div>
-          <div>
-            <img className="navbarGDSCIcon" src={GDSC_icon} alt="GDSC LOGO" />
           </div>
         </div>
       </nav>

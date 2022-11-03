@@ -10,8 +10,11 @@
   height: auto;
   color: #fff;
   font-weight: 600;
-  background: rgb(17, 16, 16);
+  background: #757F9A;  
+  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  
+  background: linear-gradient(to right, #D7DDE8, #757F9A); 
   padding: 10px;
+  box-shadow:1px 1px 25px 1px rgb(0, 0, 0);
   position: fixed;
   z-index: 1000;
 }
@@ -23,18 +26,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navbarTigerIconContainer{
   object-fit: cover;
 }
-.navbarTigerIcon , .navbarGDSCIcon{
+.navbarTigerIcon {
   width: 70px;
+
 }
 .navbarHomeSection2{
   display: flex;
   align-items: center;
   gap: 20px;
+
 }
 .navbarHomeSection2Span{
   font-family: 'Almendra SC', serif;
@@ -51,6 +58,7 @@
   border-bottom: 1px solid rgb(141, 141, 141);
   align-items: center;
   justify-content: center;
+  
 }
 .navbarHomeSection2SearchBar{
   padding: 5px;
@@ -58,6 +66,7 @@
   border: none;
   background: transparent;
   color: #fff;
+  width: 30vw;
 }
 
 .navbarHomeSection2part3{
