@@ -28,13 +28,13 @@ function Footer() {
       <div className="footerHomeAboutContainer">
         <div className="footerHomeAboutGDSC">
           <div className="footerHomeAboutGDSCHead">
-            <div className="footerHomeAboutGDSCLogoContainer">
+            {/* <div className="footerHomeAboutGDSCLogoContainer">
               <img
                 className="footerHomeAboutGDSCLogo"
                 src={"https://gdscmbcet.com/assets/img/logos/dsc_logo.png"}
                 alt="GDSC logo"
               />
-            </div>
+            </div> */}
             <div className="footerHomeAboutGDSCText">ABOUT CRYO </div>
           </div>
           <div className="footerHomeAboutGDSCTextDesc">
@@ -69,7 +69,7 @@ function Footer() {
         <div className="footerHomeAboutComHead">Join Our Community</div>
         <div className="footerHomeAboutComDesc">
           <div className="footerHomeAboutComDescContainer">
-            <a
+            {/* <a
               href="https://www.youtube.com/c/GDSCGTBIT/featured"
               rel="noreferrer"
               target={"_blank"}
@@ -79,9 +79,9 @@ function Footer() {
                 src={discord_icon}
                 alt={"icon"}
               />
-            </a>
+            </a> */}
             <a
-              href="https://www.facebook.com/dscgtbit"
+              href="https://www.facebook.com/karan.bagga.56884"
               rel="noreferrer"
               target={"_blank"}
             >
@@ -92,7 +92,7 @@ function Footer() {
               />
             </a>
             <a
-              href="https://www.instagram.com/gdscgtbit/"
+              href="https://www.instagram.com/baggakaran_19/"
               rel="noreferrer"
               target={"_blank"}
             >
@@ -103,7 +103,7 @@ function Footer() {
               />
             </a>
             <a
-              href="https://twitter.com/gdscgtbit"
+              href="https://twitter.com/baggakaran_19"
               rel="noreferrer"
               target={"_blank"}
             >
@@ -113,7 +113,7 @@ function Footer() {
                 alt={"icon"}
               />
             </a>
-            <a
+            {/* <a
               href="https://www.youtube.com/c/GDSCGTBIT/featured"
               rel="noreferrer"
               target={"_blank"}
@@ -123,7 +123,7 @@ function Footer() {
                 src={youtube_icon}
                 alt={"icon"}
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

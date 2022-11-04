@@ -1,19 +1,16 @@
 import React from 'react'
-import CardArea from '../components/CardArea';
+// import CardArea from '../components/CardArea';
 import "../assets/css/Collections.css";
-import CollectionsFilter from '../components/CollectionsFilter';
-// import LeftFilter from '../components/LeftFilter';
-import Wrapper from  '../components/Wrapper';
+import Navbar from '../components/Navbar';
+import SearchBar from '../components/SearchBar';
+// import Wrapper from  '../components/Wrapper';
 
 const Collections = (props) => {
   return (
     <div className="collections">
-        <CollectionsFilter />
-        <Wrapper>
-          {/* <LeftFilter /> */}
-          <CardArea formData ={props.formData}/>
-        </Wrapper>
-        
+      <Navbar/>
+      
+      <SearchBar/>
     </div>
   )
 }

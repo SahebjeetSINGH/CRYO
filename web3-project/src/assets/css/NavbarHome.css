@@ -7,6 +7,7 @@
 
 .navbarHomeContainer{
   width: 100%;
+  position: sticky;
   height: auto;
   color: #fff;
   font-weight: 600;
@@ -15,7 +16,6 @@
   background: linear-gradient(to right, #D7DDE8, #757F9A); 
   padding: 10px;
   box-shadow:1px 1px 25px 1px rgb(0, 0, 0);
-  position: fixed;
   z-index: 1000;
 }
 .navbarReponsive{
@@ -34,7 +34,7 @@
   object-fit: cover;
 }
 .navbarTigerIcon {
-  width: 70px;
+  width: 45px;
 
 }
 .navbarHomeSection2{

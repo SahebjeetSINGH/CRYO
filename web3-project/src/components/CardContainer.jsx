@@ -19,10 +19,10 @@ function CardContainer(props) {
               placeholder="Search Collectibles"
             ></input>
           </div>
-          <div className="filter-sort">
+          {/* <div className="filter-sort">
             <Filter />
             <Sort />
-          </div>
+          </div> */}
         </div>
       </div>
 
