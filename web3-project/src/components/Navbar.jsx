@@ -82,7 +82,7 @@ function Navbar() {
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
-            <div className="offcanvas-header">
+            <div className="offcanvas-header offcanvas_navbar">
               <Link to={"/"}>
                 <img
                   className="navbarGDSCIcon"

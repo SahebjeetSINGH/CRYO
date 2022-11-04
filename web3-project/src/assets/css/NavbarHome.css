@@ -4,6 +4,12 @@
 ::placeholder{
   color: #fff;
 }
+.offcanvas_navbar{
+  width: 100% !important;
+}
+.navbarGDSCIcon{
+  width: 80px;
+}
 
 .navbarHomeContainer{
   width: 100%;
