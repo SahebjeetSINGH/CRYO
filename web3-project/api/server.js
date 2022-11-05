@@ -25,6 +25,7 @@ app.get('/', (req, res) => {
 app.post('/event/:name', async(req, res) => {
   const response = await phqEvents.search({'q': req.params.name, 'sort': '-start' , 'country' : 'USA'});
   res.send(response);
+  console.log(response);
 })
 
 app.listen(port, () => {

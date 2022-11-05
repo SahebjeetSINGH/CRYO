@@ -10,8 +10,8 @@
     background-color: black;
 }
 
-.btn-close {
-    color: white !important;
+.offcanvas-header .btn-close {
+    background-color: white !important;
 }
 
 .TeamHead{
@@ -32,6 +32,34 @@
     height: 90vh;
     background: rgb(237, 237, 237);
 }
+
+.SearchBarTicket{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    gap: 30vw;
+    flex-wrap: wrap;
+}
+.SearchBarCont2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.SearchBarSearchTicket{
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: transparent;
+}
+.SearchBarSubmit{
+    outline: none;
+    border-radius: 5px;
+    border: 1px #000 solid;
+    padding: 10px;
+    background: #75dc45;
+}
 .SearchBarOption{
     text-align: center;
     color : #fff;
@@ -42,6 +70,11 @@
     width: 60%;
     box-shadow: 3px 5px 10px 5px #8B6AC2;
     /* background: #97C84B; */
+}
+
+.SearchBarOption:hover {
+    transition: 0.4s;
+    box-shadow: 3px 5px 10px 2px #8B6AC2;
 }
 
 .SearchBarLeft{
