@@ -9,16 +9,17 @@ const TeamCard = (props) => {
         {
             props.formData !== null ? (<div className="card" style={{
                 width: "15rem", 
-                background: "linear-gradient(to left, rgb(0, 0, 0), rgb(39 39 39))", 
+                background: "none", 
                 display: "flex",
                 alignItems:"center",
                 borderRadius:"5%",
                 color: "#fff",
                 marginRight:"2%",
                 marginBottom:"2%",
-                fontSize:"14px"
+                fontSize:"14px",
+                border:"none"
                 }}>
-                    <img className="card-img-top" src={props.img} alt="Card cap" style={{borderRadius:"5%", backgroundImage:`url(${NFT2Back})`, backgroundSize:"cover", width:"90%", 
+                    <img className="card-img-top" src={props.img} alt="Card cap" style={{borderRadius:"5%", backgroundSize:"cover", width:"90%", 
                     marginTop:"5%"
                     }} />
                     <div className="card-body" style={{

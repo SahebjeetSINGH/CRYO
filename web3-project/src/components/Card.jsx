@@ -43,14 +43,14 @@ const Card = (props) => {
         
         <div className="card" style={{
         width: "12rem", 
-        // background: "grey", 
+        // background: "", 
         display: "flex",
         alignItems:"center",
         color: "white",
         marginRight:"2%",
         marginBottom:"2%",
         fontSize:"14px",
-        background: "rgba( 144, 130, 130, 0.25 )",
+        background: "linear-gradient(to left, rgb(0, 0, 0), rgb(39 39 39))",
         boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
         backdropFilter: "blur( 5.5px )",
         borderRadius: "10px",
@@ -73,7 +73,7 @@ const Card = (props) => {
                     </h6>
                 </div>
                 <div className="card-text">
-                   <a href = "/CollectionDescription" onClick={()=>{toComponentDesc()}}><button type="button"  style = {{borderRadius:"25%", background:"lightgreen",border:"none",color:"white"}}>BUY NOW</button></a>
+                   <a href = "/CollectionDescription" onClick={()=>{toComponentDesc()}}><button type="button"  style = {{borderRadius:"25%", background:"lightgreen",border:"none",color:"white"}}>BUY TICKET</button></a>
                 </div>
                 
             </div>

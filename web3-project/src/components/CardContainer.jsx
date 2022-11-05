@@ -4,7 +4,7 @@ import "../assets/css/CardContainer.css";
 
 function CardContainer(props) {
   return (
-    <div>
+    <div className="collectionHead">
       <div>
         <h1 className="text-center collectionHeading">LATEST COLLECTIONS</h1>
         <div className="search-filter-sort">

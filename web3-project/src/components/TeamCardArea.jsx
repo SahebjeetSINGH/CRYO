@@ -2,15 +2,14 @@ import React, { useEffect, useState } from "react";
 import Card from "./TeamCard";
 import "../assets/css/CardArea.css";
 import LoadingSpinner from "./LoadingSpinner";
-import tiger1 from "../assets/images/NFT 1.png";
-import tiger2 from "../assets/images/NFT 2.png";
-import tiger3 from "../assets/images/NFT 3.png";
-import tiger4 from "../assets/images/NFT 4.png";
+import tiger1 from "../assets/images/karan.png";
+import tiger2 from "../assets/images/saheb.png";
+import tiger3 from "../assets/images/unnat.png";
 
 const CardArea = () => {
   const [formData, setformData] = useState([""]);
   // const r = Math.floor(Math.random()*4+1);
-  const arr = [tiger1, tiger2, tiger3, tiger4];
+  const arr = [tiger1, tiger2, tiger3];
   // useEffect(() => {
 
   // }, [third])
@@ -48,7 +47,7 @@ const CardArea = () => {
               <Card
                 key={index}
                 formData={item}
-                img={arr[Math.floor(Math.random() * 4)]}
+                img={arr[index]}
               />
             );
           })}
