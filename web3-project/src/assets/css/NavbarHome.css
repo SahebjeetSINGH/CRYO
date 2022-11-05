@@ -17,9 +17,11 @@
   height: auto;
   color: #fff;
   font-weight: 600;
-  background: #757F9A;  
-  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  
-  background: linear-gradient(to right, #D7DDE8, #757F9A); 
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
   padding: 10px;
   box-shadow:1px 1px 25px 1px rgb(0, 0, 0);
   z-index: 1000;
@@ -106,7 +108,7 @@
 
 /* CSS for Responsive Navbar */
 .navbar{
-  background: rgb(17, 16, 16) !important;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0% !important;
   z-index: 10;
 }

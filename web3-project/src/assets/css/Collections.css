@@ -1,7 +1,16 @@
 .collections{
-    background-image: linear-gradient(to top , rgb(188, 132, 10) , rgb(6, 0, 127));
+    background: #4568DC;  
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
     width: 100%;
     min-height: 100vh;
+}
+
+.TeamHead{
+    font-weight: 700;
+    font-size: 6rem;
+    text-shadow: 1px 9px 5px #000;
+    color: #fff !important;
 }
 
 .SearchBar{
@@ -23,4 +32,11 @@
     padding: 10px; 
     width: 100%;
     background: #97C84B;
+}
+
+
+@media screen and  (max-width: 500px){
+    .TeamHead{
+        font-size: 3rem;
+    }
 }

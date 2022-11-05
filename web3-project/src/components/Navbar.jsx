@@ -40,15 +40,12 @@ function Navbar() {
             </div>
             <div className="navbarHomeSection2part3">
               <div>
-                <Link to={"/Collections"}>Buy Tickets</Link>
+                <Link to={"/Collections"}>BUY TICKETS</Link>
               </div>
               <div>
                 <Link to={"/team"}>TEAM</Link>
               </div>
               <div>ABOUT</div>
-              <div>
-                <i className="bi bi-person-circle"></i>
-              </div>
               <div>
                 <i className="bi bi-wallet"></i>
               </div>
@@ -103,14 +100,9 @@ function Navbar() {
               </div>
 
               <div className="nav-mob-list">
-                <Link to={"/Collections"}>COLLECTION</Link>
+                <Link to={"/Collections"}>Buy Ticket</Link>
               </div>
-              {/* <div >
-                  <a className="nav-link" href="#">
-                  MINT NOW
-                  </a>
-                </div> */}
-              <div className="nav-mob-list" >WHITE PAPER</div>
+
               <div className="nav-mob-list">
                 <Link to={"/team"}>TEAM</Link>
               </div>

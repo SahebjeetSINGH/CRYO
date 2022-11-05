@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/css/carousel.css";
-import tiger_icon1 from "../assets/images/NFT 1.png";
-import tiger_icon2 from "../assets/images/NFT 2.png";
-import tiger_icon3 from "../assets/images/NFT 3.png";
-import tiger_icon4 from "../assets/images/NFT 4.png";
+import tiger_icon1 from "../assets/images/ronaldo.png";
+import tiger_icon2 from "../assets/images/pathan.png";
+import tiger_icon3 from "../assets/images/arijit.png";
+import tiger_icon4 from "../assets/images/divine.png";
 function Carousel() {
   const ImgData = [
     {

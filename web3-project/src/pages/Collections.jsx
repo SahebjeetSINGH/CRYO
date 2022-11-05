@@ -9,7 +9,6 @@ const Collections = (props) => {
   return (
     <div className="collections">
       <Navbar/>
-      
       <SearchBar/>
     </div>
   )

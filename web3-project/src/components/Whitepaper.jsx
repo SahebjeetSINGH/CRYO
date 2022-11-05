@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/Whitepaper.css";
-import tiger_img from "../assets/images/Tiger_1_img.png";
+import tiger_img from "../assets/images/arijit.png";
 function Whitepaper() {
   return (
     <div className="WhitePaper">

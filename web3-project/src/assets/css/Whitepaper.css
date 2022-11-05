@@ -4,13 +4,9 @@
   padding: 20px 0px;
 }
 .aboutContainer {
-  width: 60%;
+  width: 100%;
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
   margin: 0 auto;
   padding: 40px;
   border-radius: 10px;
@@ -20,31 +16,42 @@
   padding: 10px;
   color: #fff;
   font-size: 3rem;
+  text-shadow: 1px 6px 4px #000;
   font-weight: 700;
 }
 .aboutDescText {
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   text-align: justify;
   color: #fff;
+  width: 70%;
+  padding-left: 10%;
 }
 
-.aboutDescImgContainer {
+/* .aboutDescImgContainer {
   background: #363636b1;
-}
+} */
 
 .aboutDescContainer {
   display: flex;
   padding: 30px;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 5%;
+  justify-content: center;
+}
+
+.aboutDescImgContainer {
+  width: 20%;
 }
 
 .aboutDescImg {
-  box-shadow: -10px 10px 2px #000;
+  width : 80%;
+
+  /* box-shadow: -10px 10px 2px #000; */
 }
 @media screen and (max-width: 900px) {
   .aboutDescContainer {
