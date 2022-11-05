@@ -1,31 +1,26 @@
 import React, { useState, useEffect } from "react";
+import data from "../assets/data/data";
+import '../assets/css/SearchCard.css';
 const CardDescriptionPage = ({ searchdata }) => {
-  const URL = "http://localhost:3001/event/";
-  const [Data, SetData] = useState([]);
-  const APIURL = URL + searchdata;
-  const GetData = async () => {
-    if (searchdata !== "") {
-      console.log("working");
-      const response = await fetch(APIURL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-      }).catch((err) => console.log(err));
-      const res = await response.json();
-      console.log(res);
-      SetData(res);
-    }
-  };
+  const [Data , SetData] = useState([]);
+  const filterdata = (searchdata) => {
+    const tempdata = data.filter((val) => val.tag === searchdata);
+    SetData(tempdata);
+  }
   useEffect(() => {
-    console.log(searchdata);
-    GetData(searchdata);
+    filterdata(searchdata);
+    console.log(Data);
   }, []);
   return (
-    <div>
+    <div className="SearchCardCont">
       {
-        Data.result.results.map((mp , idx) => (
-          <div key={idx}>{mp.title}</div>
+        Data.map((mp , idx)=>(
+          <div key ={idx} className = "CardContSearch">
+            <img src={mp.img} className="CardContImg" alt="cricket" />
+            <div>{mp.name}</div>
+            <div>{mp.location}</div>
+            <div className="TicketBuySearch">Buy Ticket</div>
+          </div>
         ))
       }
     </div>

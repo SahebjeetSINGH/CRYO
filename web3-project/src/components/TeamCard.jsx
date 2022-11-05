@@ -1,7 +1,5 @@
 import React from 'react'
 import '../assets/css/card.css';
-// import NFT1 from "../assets/images/NFT1.png";
-import NFT2Back from "../assets/images/NFT2BACKGROUND.png";
 
 const TeamCard = (props) => {
     return (

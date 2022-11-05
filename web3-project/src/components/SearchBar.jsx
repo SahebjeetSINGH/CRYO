@@ -35,7 +35,7 @@ const SearchBar = () => {
           <i class="bi bi-menu-button-wide"></i>
         </Button>
         <div className="SearchBarCont2">
-          <input className="SearchBarSearchTicket" onChange={Change} type="text"></input>
+          <input required className="SearchBarSearchTicket" onChange={Change} type="text"></input>
           <button className="SearchBarSubmit" onClick={()=>{handle_submit(InputData)}}>Search</button>
         </div>
       </div>
