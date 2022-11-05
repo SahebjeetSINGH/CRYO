@@ -13,6 +13,7 @@ const comicon6  = require('../images/comicon6.jpg');
 
 const  data = [
   {
+    id: '1',
     name: "Zimbabwe vs India",
     img: cricket1,
     location: "Melbourne Cricket Ground, Melbourne, Australia",
@@ -26,6 +27,7 @@ const  data = [
     timezone : "IST"
   },
   {
+    id: '2',
       name: "South Africa vs Netherlands",
       img: cricket2,
       location: "Adelaide Oval, Adelaide",
@@ -39,6 +41,7 @@ const  data = [
       timezone : "IST"
     },
     {
+      id: '3',
       name: "Pakistan vs Bangladesh",
       img: cricket3,
       location: "Adelaide Oval, Adelaide",
@@ -52,7 +55,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "cricket",
+      id: '4',
+      name: "New Zealand vs India",
       img: cricket4,
       location: "Sky Stadium, Wellington",
       tag: "cricket",
@@ -65,7 +69,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "cricket",
+      id: '5',
+      name: "New Zealand vs India",
       img: cricket5,
       location: "Bay Oval, Mount Maunganui",
       tag: "cricket",
@@ -78,7 +83,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "cricket",
+      id: '6',
+      name: "New Zealand vs India",
       img: cricket6,
       location: "McLean Park, Napier",
       tag: "cricket",
@@ -91,7 +97,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "comicon Delhi",
+      id: '7',
+      name: "Comicon Delhi",
       img: comicon1,
       location: "NSIC Exhibition Ground, Okhla",
       tag: "comicon",
@@ -104,7 +111,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "comicon Bangluru",
+      id: '8',
+      name: "Comicon Bangluru",
       img: comicon2,
       location: "KTPO TRADE CENTRE, WhiteField",
       tag: "comicon",
@@ -117,7 +125,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "comicon Mumbai",
+      id: '9',
+      name: "Comicon Mumbai",
       img: comicon3,
       location: "JIO WORLD CENTRE, Bandra-Kundra",
       tag: "comicon",
@@ -130,7 +139,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "comicon Delhi",
+      id: '10',
+      name: "Comicon Delhi",
       img: comicon4,
       location: "Delhi",
       tag: "comicon",
@@ -143,7 +153,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "comicon",
+      id: '11',
+      name: "Comicon Gurugram",
       img: comicon5,
       location: "Gurugram",
       tag: "comicon",
@@ -156,7 +167,8 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "comicon",
+      id: '12',
+      name: "Comicon Noida",
       img: comicon6,
       location: "Noida",
       tag: "comicon",
@@ -169,43 +181,46 @@ const  data = [
       timezone : "IST"
     },
     {
-      name: "football",
+      id: '13',
+      name: "Chelsea vs Arsenal",
       img: "",
-      location: "",
+      location: "Stamford Bridge, England",
       tag: "football",
       tagline: "sport, football, fifa world cup",
-      description: "",
-      date: "",
-      totalpeople : "",
-      starttime:  "" ,
-      endtime : "",
-      timezone : ""
+      description: "Chelsea vs Arsenal",
+      date: "Sunday 06 November",
+      totalpeople : "41,837",
+      starttime:  "17:30" ,
+      endtime : "19:30",
+      timezone : "IST"
     },
     {
-      name: "football",
+      id: '14',
+      name: "Rayo Vallecano vs Real Madrid",
       img: "",
-      location: "",
+      location: "Estadio De Vallecas, Spain",
       tag: "football",
       tagline: "sport, football, fifa world cup",
-      description: "",
-      date: "",
-      totalpeople : "",
-      starttime:  "" ,
-      endtime : "",
-      timezone : ""
+      description: "Rayo Vallecano vs Real Madrid",
+      date: "Tuesday 08 November",
+      totalpeople : "14,505",
+      starttime:  "01:30" ,
+      endtime : "03:30",
+      timezone : "IST"
     },
     {
-      name: "football",
+      id: '15',
+      name: "Osasuna vs Barcelona",
       img: "",
-      location: "",
+      location: "Estadio El Sadar, Spain",
       tag: "football",
       tagline: "sport, football, fifa world cup",
-      description: "",
-      date: "",
-      totalpeople : "",
-      starttime:  "" ,
-      endtime : "",
-      timezone : ""
+      description: "Osasuna vs Barcelona",
+      date: "Wednesday 09 November",
+      totalpeople : "23,576",
+      starttime:  "02:00",
+      endtime : "04:00",
+      timezone : "IST"
     }
 ];
 

@@ -45,7 +45,7 @@ function Navbar() {
               <div>
                 <Link to={"/team"}>TEAM</Link>
               </div>
-              <div>ABOUT</div>
+              <div cla>ABOUT</div>
               <div>
                 <i className="bi bi-wallet"></i>
               </div>

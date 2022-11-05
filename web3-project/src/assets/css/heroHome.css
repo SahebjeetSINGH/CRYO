@@ -33,6 +33,11 @@
     background: #54D269;
     color: #fff;
     border: none;
+    
+    transition:box-shadow 1s;
+}
+.heroContainerButton:hover{
+    box-shadow: 1px 5px 30px black;
 }
 .heroContainerTextspan{
     text-decoration: line-through #54D269;

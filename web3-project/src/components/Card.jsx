@@ -1,8 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import { useNavigate } from 'react-router-dom';
-// import '../assets/css/Card.css';
-// import NFT1 from "../assets/images/NFT1.png";
-// import NFT2Back from "../assets/images/NFT2BACKGROUND.png";
+
 
 
 const Card = (props) => {

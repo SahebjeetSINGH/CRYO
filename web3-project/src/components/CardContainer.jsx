@@ -5,19 +5,7 @@ import "../assets/css/CardContainer.css";
 function CardContainer(props) {
   return (
     <div className="collectionHead">
-      <div>
-        <h1 className="text-center collectionHeading">LATEST COLLECTIONS</h1>
-        <div className="search-filter-sort">
-          <div className="navbarHomeSection2SearchContainer cardsearchoption">
-            <i className="bi bi-search"></i>
-            <input
-              className="navbarHomeSection2SearchBar"
-              type={"text"}
-              placeholder="Search Collectibles"
-            ></input>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="cardContainer">
         <Card

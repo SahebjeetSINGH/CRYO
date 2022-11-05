@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
 .collections{
     background: #4568DC;  
     background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
@@ -48,17 +52,27 @@
 
 .SearchBarSearchTicket{
     outline: none;
-    border: 1px solid #000;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 1.2rem;
     background: transparent;
+    width: 20vw;
+    color: white;
 }
+
+.SearchBarSearchTicket::placeholder {
+    padding-left: 3px;
+    color: lightgray;
+}
+
 .SearchBarSubmit{
     outline: none;
-    border-radius: 5px;
-    border: 1px #000 solid;
+    border-radius: 10px;
+    border: none;
     padding: 10px;
     background: #75dc45;
+    color: white;
+    width: 8vw;
 }
 .SearchBarOption{
     text-align: center;
@@ -70,6 +84,27 @@
     width: 60%;
     box-shadow: 3px 5px 10px 5px #8B6AC2;
     /* background: #97C84B; */
+}
+
+.SearchFalse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*  */
+.SearchFalseIMG{
+    width: 10%;
+}
+.glow {
+    color: #fff;
+    font-family: 'rocher';
+    text-shadow: 0 0 1px #fff, 0 0 7px #fff, 0 0 5px #00bce6, 0 0 14px #00bce6, 0 0 5px #00bce6, 0 0 33px #00bce6, 0 0 22px #00bce6 !important; 
+}
+.SpText{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
 }
 
 .SearchBarOption:hover {

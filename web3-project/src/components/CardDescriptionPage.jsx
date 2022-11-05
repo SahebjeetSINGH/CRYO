@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import data from "../assets/data/data";
 import '../assets/css/SearchCard.css';
+import { useNavigate } from "react-router-dom";
 const CardDescriptionPage = ({ searchdata }) => {
   const [Data , SetData] = useState([]);
   const filterdata = (searchdata) => {
@@ -11,15 +12,20 @@ const CardDescriptionPage = ({ searchdata }) => {
     filterdata(searchdata);
     console.log(Data);
   }, []);
+  const navigate = useNavigate();
+  const handleClick = (id)=>{
+    window.localStorage.setItem('id' , id);
+    navigate('/itemDetail');
+  }
   return (
     <div className="SearchCardCont">
       {
         Data.map((mp , idx)=>(
-          <div key ={idx} className = "CardContSearch">
+          <div  className = "CardContSearch">
             <img src={mp.img} className="CardContImg" alt="cricket" />
             <div>{mp.name}</div>
             <div>{mp.location}</div>
-            <div className="TicketBuySearch">Buy Ticket</div>
+            <button onClick={()=>handleClick(mp.id)} className="TicketBuySearch">Buy Ticket</button>
           </div>
         ))
       }
