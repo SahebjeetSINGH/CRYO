@@ -1,5 +1,4 @@
 import React from "react";
-import Counter from "./Counter";
 import Carousel from "../components/Carousel";
 import "../assets/css/heroHome.css";
 import {useNavigate} from "react-router-dom"
