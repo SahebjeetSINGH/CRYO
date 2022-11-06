@@ -24,6 +24,29 @@
       font-size: 20px;
 }
 
+.connectionBtn {
+      margin-top: 40px;
+}
+
+.connBtn {
+      padding: 10px;
+      border-radius: 15px;
+      background-color: rgb(42, 213, 30);
+      border: none;
+      color: white;
+      transition: box-shadow 1s;
+      margin-right: 30px;
+}
+
+.connBtn1 {
+      padding: 10px;
+      border-radius: 15px;
+      background-color: red;
+      border: none;
+      color: white;
+      transition: box-shadow 1s;
+}
+
 .buyButton {
       margin-top: 50px;
       padding: 10px;

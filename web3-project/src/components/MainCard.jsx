@@ -29,12 +29,6 @@ const MainCard = () => {
   }, []);
   return (
     <>
-    		<h4>
-			<strong>Balance: </strong>
-			{balance}
-		</h4>
-    <button onClick={connect}> Connect Account</button>
-    <button onClick={disconnect}> Disconnect Account</button>
       <div className="collections2">
         {Data.map((mp, idx) => (
           <div key={idx} className="CardDetail">
@@ -48,6 +42,10 @@ const MainCard = () => {
               <div>Capacity: {mp.totalpeople}</div>
               <button className="buyButton">Buy Now</button>
               <button className="backButton" onClick={()=>{navigate('/Collections')}}>Back</button>
+              <div className="connectionBtn">
+                <button className="connBtn" onClick={connect}> Connect Account</button>
+                <button className="connBtn1" onClick={disconnect}> Disconnect Account</button>
+              </div>
             </div>
           </div>
         ))}
