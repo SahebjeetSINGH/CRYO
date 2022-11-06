@@ -1,75 +1,58 @@
-import React from 'react'
-import '../assets/css/card.css';
+import React, { useEffect, useState } from "react";
+import Card from "./TeamCard";
+import "../assets/css/CardArea.css";
+import tiger1 from "../assets/images/karan.png";
+import tiger2 from "../assets/images/saheb.png";
+import tiger3 from "../assets/images/unnat.png";
 
-const TeamCard = (props) => {
-    return (
-        <>
-        {
-            props.formData !== null ? (<div className="card" style={{
-                width: "15rem", 
-                background: "none", 
-                display: "flex",
-                alignItems:"center",
-                borderRadius:"5%",
-                color: "#fff",
-                marginRight:"2%",
-                marginBottom:"2%",
-                fontSize:"14px",
-                border:"none"
-                }}>
-                    <img className="card-img-top" src={props.img} alt="Card cap" style={{borderRadius:"5%", backgroundSize:"cover", width:"90%", 
-                    marginTop:"5%"
-                    }} />
-                    <div className="card-body" style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        width: "100%",
-                        paddingBottom:"0",
-                        paddingRight:"5px"
-                    }}>
-                        <div className="card-text" >
-                            <h5>
-                            Name : {props.formData?.Name}
-                            </h5>
-                        </div>
-                        
-                    </div>
-        
-                    <div className="card-body" style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        width: "100%",
-                        paddingBottom:"0",
-                        paddingTop:"0"
-                    }}>
-                    </div>
-        
-                    <div className="card-body" style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        width: "100%",
-                        paddingTop:"10px"
-                    }}>
-                        <div className="card-text">
-                            <a href={props.formData?.InstagramUrl}>
-                                <span className='bi bi-instagram'></span>
-                            </a>
-                        </div>
-                        <div className="card-text">
-                            <a href={props.formData?.LinkedinUrl}>
-                            <span className='bi bi-linkedin'></span>
-                            </a>
-                        </div>
-                        <div className="card-text">
-                            <a href={props.formData?.TwitterUrl}>
-                            <span className='bi bi-twitter '></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>):(null)
-        }
-        </>
-    )
-}
+const CardArea = () => {
+  const [formData, setformData] = useState([""]);
+  // const r = Math.floor(Math.random()*4+1);
+  const arr = [tiger1, tiger2, tiger3];
+  // useEffect(() => {
 
-export default TeamCard;
+  // }, [third])
+  const data = [
+    {
+      Name: "Karan Bagga",
+      Linkedin: "djdkjd",
+      Instagram: "djdjd",
+      Twitter: "Djdjdd",
+    },
+    {
+      Name: "Sahebjeet Singh",
+      Linkedin: "djdkjd",
+      Instagram: "djdjd",
+      Twitter: "Djdjdd",
+    },
+    {
+      Name: "Unnat Das",
+      Linkedin: "djdkjd",
+      Instagram: "djdjd",
+      Twitter: "Djdjdd",
+    }
+  ];
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setformData(data);
+  }, []);
+
+
+  return (
+    <>
+        <div className="cardareaa">
+          {formData.map((item, index) => {
+            return (
+              <Card
+                key={index}
+                formData={item}
+                img={arr[index]}
+              />
+            );
+          })}
+        </div>
+    </>
+  );
+};
+
+export default CardArea;
