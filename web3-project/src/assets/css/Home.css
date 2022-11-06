@@ -8,3 +8,22 @@ background: linear-gradient(to right, #B06AB3, #4568DC);
     background-position: center;
     background-size: cover;
 }
+
+.CardHomeImg{
+    width: 50%;
+    margin: 0 auto;
+    height:250px;
+}
+.CardContSearch.sp
+{
+    position: relative;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CardMainCont
+{
+    width: 25%;
+}

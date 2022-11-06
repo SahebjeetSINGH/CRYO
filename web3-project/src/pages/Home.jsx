@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "../components/Hero";
-import CardContainer from "../components/CardContainer";
 import Whitepaper from "../components/Whitepaper";
 import "../assets/css/Home.css";
 import image1 from "../assets/images/dil.png"
@@ -15,7 +14,7 @@ function Home(props) {
       <Navbar />
       <Hero />
       <div>
-        <h1 className="text-center collectionHeading">LATEST COLLECTIONS</h1>
+        <h1 className="text-center aboutContainerHead ">LATEST COLLECTIONS</h1>
         <div className="search-filter-sort">
           <div className="navbarHomeSection2SearchContainer cardsearchoption">
             <i className="bi bi-search"></i>
@@ -28,20 +27,16 @@ function Home(props) {
         </div>
       </div>
       <div className="SearchCardCont" style={{"justifyContent" : "center" , "gap" : "10px"}}>
-        <div className="CardContSearch">
-          <img src= {image1} className="CardContImg" alt="cricket" />
+        <div className="CardContSearch sp">
+          <img src= {image1} className="CardHomeImg" alt="cricket" />
+          <button className="TicketBuySearch" >Buy Ticket</button>
+        </div>
+        <div className="CardContSearch sp">
+          <img src={image2} className="CardHomeImg" alt="cricket" />
           <button className="TicketBuySearch">Buy Ticket</button>
         </div>
-        <div className="CardContSearch">
-          <img src={image2} className="CardContImg" alt="cricket" />
-          <div>dj</div>
-          <div>djdjdkd</div>
-          <button className="TicketBuySearch">Buy Ticket</button>
-        </div>
-        <div className="CardContSearch">
-          <img src="jfk" className="CardContImg" alt="cricket" />
-          <div>dj</div>
-          <div>djdjdkd</div>
+        <div className="CardContSearch sp">
+          <img src={image3} className="CardHomeImg" alt="cricket" />
           <button className="TicketBuySearch">Buy Ticket</button>
         </div>
       </div>

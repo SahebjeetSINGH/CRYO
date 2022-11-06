@@ -10,6 +10,9 @@ const comicon3  = require('../images/comicon3.jpg');
 const comicon4  = require('../images/conmicon4.jpg');
 const comicon5  = require('../images/conmicon5.jpg');
 const comicon6  = require('../images/comicon6.jpg');
+const football1  = require('../images/football1.jpg');
+const football2  = require('../images/football2.jpg');
+const football3  = require('../images/football3.jpg');
 
 const  data = [
   {
@@ -183,7 +186,7 @@ const  data = [
     {
       id: '13',
       name: "Chelsea vs Arsenal",
-      img: "",
+      img: football1,
       location: "Stamford Bridge, England",
       tag: "football",
       tagline: "sport, football, fifa world cup",
@@ -197,7 +200,7 @@ const  data = [
     {
       id: '14',
       name: "Rayo Vallecano vs Real Madrid",
-      img: "",
+      img: football2,
       location: "Estadio De Vallecas, Spain",
       tag: "football",
       tagline: "sport, football, fifa world cup",
@@ -211,7 +214,7 @@ const  data = [
     {
       id: '15',
       name: "Osasuna vs Barcelona",
-      img: "",
+      img: football3,
       location: "Estadio El Sadar, Spain",
       tag: "football",
       tagline: "sport, football, fifa world cup",

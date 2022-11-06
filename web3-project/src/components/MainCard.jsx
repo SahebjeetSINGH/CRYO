@@ -1,11 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "react-bootstrap";
+import useMetaMask from '../hooks/useMetaMask';
 import data from "../assets/data/data";
 import '../assets/css/SearchCard.css';
+import {useNavigate} from 'react-router-dom';
 const MainCard = () => {
   const [Data, SetData] = useState([]);
+  const navigate = useNavigate();
   const idx = localStorage.getItem("id");
   // console.log(idx);
+  const { connect, disconnect, balance, isActive, account } = useMetaMask()
+
+  if (window.ethereum) {
+    console.log("WALLET FOUND");
+  }
+  else{
+    alert("install metamask extension!!");
+  }
   const filterdata = (idx) => {
     const tempdata = data.filter((val) => val.id === idx);
     SetData(tempdata);
@@ -18,14 +29,25 @@ const MainCard = () => {
   }, []);
   return (
     <>
-      <div className="collections">
+    		<h4>
+			<strong>Balance: </strong>
+			{balance}
+		</h4>
+    <button onClick={connect}> Connect Account</button>
+    <button onClick={disconnect}> Disconnect Account</button>
+      <div className="collections2">
         {Data.map((mp, idx) => (
           <div key={idx} className="CardDetail">
-            <img src={mp.img} className="CardContImg" alt="cricket" />
-            <div>
+              <img src={mp.img} className="CardContImg2" alt="cricket" />
+            <div className="cardDesc">
               <div>{mp.name}</div>
-              <div>{mp.location}</div>
-              <div>{"D"}</div>
+              <div>Location: {mp.location}</div>
+              <div>Date: {mp.date}</div>
+              <div>Start Time: {mp.starttime}</div>
+              <div>End Time: {mp.endtime}</div>
+              <div>Capacity: {mp.totalpeople}</div>
+              <button className="buyButton">Buy Now</button>
+              <button className="backButton" onClick={()=>{navigate('/Collections')}}>Back</button>
             </div>
           </div>
         ))}
