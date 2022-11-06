@@ -27,7 +27,8 @@ const  data = [
     totalpeople : "1,00,000",
     starttime:  "13:30" ,
     endtime : "18:30",
-    timezone : "IST"
+    timezone : "IST",
+    price : "Rs. 5000"
   },
   {
     id: '2',
@@ -41,7 +42,8 @@ const  data = [
       totalpeople : "53,500",
       starttime:  "05:30" ,
       endtime : "10:30",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 6000"
     },
     {
       id: '3',
@@ -55,7 +57,8 @@ const  data = [
       totalpeople : "53,500",
       starttime:  "09:30" ,
       endtime : "14:30",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 7000"
     },
     {
       id: '4',
@@ -69,7 +72,8 @@ const  data = [
       totalpeople : "34,500",
       starttime:  "12:00" ,
       endtime : "17:00",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 5500"
     },
     {
       id: '5',
@@ -83,7 +87,8 @@ const  data = [
       totalpeople : "10,000",
       starttime:  "12:00" ,
       endtime : "17:00",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 4000"
     },
     {
       id: '6',
@@ -97,7 +102,8 @@ const  data = [
       totalpeople : "19,700",
       starttime:  "12:00" ,
       endtime : "17:00",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 6300"
     },
     {
       id: '7',
@@ -111,7 +117,8 @@ const  data = [
       totalpeople : "5000+",
       starttime:  "11.00 AM" ,
       endtime : "9.00 PM",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 1000"
     },
     {
       id: '8',
@@ -125,7 +132,8 @@ const  data = [
       totalpeople : "5000+",
       starttime:  "11.00 AM" ,
       endtime : "9.00 PM",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 1500"
     },
     {
       id: '9',
@@ -139,7 +147,8 @@ const  data = [
       totalpeople : "5000+",
       starttime:  "11.00 AM" ,
       endtime : "9.00 PM",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 800"
     },
     {
       id: '10',
@@ -153,7 +162,8 @@ const  data = [
       totalpeople : "5000+",
       starttime:  "11.00 AM" ,
       endtime : "9.00 PM",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 1200"
     },
     {
       id: '11',
@@ -167,7 +177,8 @@ const  data = [
       totalpeople : "5000+",
       starttime:  "11.00 AM" ,
       endtime : "9.00 PM",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 900"
     },
     {
       id: '12',
@@ -181,7 +192,8 @@ const  data = [
       totalpeople : "5000+",
       starttime:  "11.00 AM" ,
       endtime : "9.00 PM",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 1600"
     },
     {
       id: '13',
@@ -195,7 +207,8 @@ const  data = [
       totalpeople : "41,837",
       starttime:  "17:30" ,
       endtime : "19:30",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 8000"
     },
     {
       id: '14',
@@ -209,7 +222,8 @@ const  data = [
       totalpeople : "14,505",
       starttime:  "01:30" ,
       endtime : "03:30",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 7500"
     },
     {
       id: '15',
@@ -223,7 +237,8 @@ const  data = [
       totalpeople : "23,576",
       starttime:  "02:00",
       endtime : "04:00",
-      timezone : "IST"
+      timezone : "IST",
+      price : "Rs. 6000"
     }
 ];
 
