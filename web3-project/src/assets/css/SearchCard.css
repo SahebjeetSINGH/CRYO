@@ -27,7 +27,12 @@
 .connectionBtn {
       margin-top: 40px;
 }
-
+.Walletcontainer{
+      margin:  0 auto ;
+      width: 100%;
+      text-align: center;
+      font-size: 1.4rem;
+}
 .connBtn {
       padding: 10px;
       border-radius: 15px;
